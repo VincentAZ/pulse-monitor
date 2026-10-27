@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.pulse.Monitor</id>
+  <name>Pulse</name>
+  <summary>System and GPU monitor</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <description>
+    <p>Pulse shows CPU, memory, disk, network and GPU utilization with live graphs, lists processes and applications, and gives an nvtop-style per-process view of NVIDIA, AMD and Intel GPUs.</p>
+  </description>
+  <launchable type="desktop-id">org.pulse.Monitor.desktop</launchable>
+  <developer id="org.pulse"><name>Pulse contributors</name></developer>
+  <url type="homepage">https://github.com/pulse-monitor/pulse</url>
+  <categories><category>System</category><category>Monitor</category></categories>
+  <requires><display_length compare="ge">360</display_length></requires>
+  <supports><control>keyboard</control><control>pointing</control><control>touch</control></supports>
+  <content_rating type="oars-1.1"/>
+  <releases><release version="0.1.0" date="2026-10-26"/></releases>
+</component>

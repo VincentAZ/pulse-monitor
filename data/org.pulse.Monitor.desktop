@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Pulse
+GenericName=System Monitor
+Comment=Monitor CPU, memory, disk, network and GPU usage, processes and apps
+Exec=pulse
+Icon=org.pulse.Monitor
+Terminal=false
+Categories=System;Monitor;GTK;GNOME;
+Keywords=system;monitor;task;manager;cpu;gpu;nvidia;amd;intel;memory;network;process;nvtop;
+StartupNotify=true
+DBusActivatable=false

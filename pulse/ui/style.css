@@ -1,0 +1,13 @@
+.numeric { font-feature-settings: "tnum"; font-variant-numeric: tabular-nums; }
+.mono { font-family: monospace; }
+.page { padding: 18px 24px 24px 24px; }
+.sidebar-row { padding: 6px 4px; }
+.sidebar-title { font-weight: bold; }
+.gpu-card { background: alpha(currentColor, 0.04); border-radius: 12px; padding: 12px; }
+.gpu-header { font-weight: bold; }
+.nv-stat { font-family: monospace; font-size: 0.95em; }
+.footer-bar { padding: 4px 12px; border-top: 1px solid alpha(currentColor, 0.12); }
+.heading { font-weight: bold; }
+columnview.data-table > listview > row > cell { padding: 3px 8px; }
+.cell-numeric { font-feature-settings: "tnum"; font-variant-numeric: tabular-nums; }
+.proc-busy { color: @warning_color; font-weight: bold; }
